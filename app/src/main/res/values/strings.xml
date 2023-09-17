@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">logintaller</string>
+    <string name="hint_email_input">tuCorreo@dominio.com</string>
+    <string name="hint_password_input">password</string>
+    <string name="label_email_input">Correo:</string>
+    <string name="label_pass_input">Contraseña:</string>
+    <string name="btn_login_text">Iniciar</string>
+    <string name="signup_text_start">Si no estas registrado, hazlo</string>
+    <string name="signup_text_link"><a href="#"> aqui</a></string>
+    <string name="hello_user_default">Hello User</string>
+    <string name="hello_user_prefix">Hola %1$s, bienvenido </string>
+    <string name="txt_top_login">Iniciar sesión</string>
+    <string name="txt_top_signup">Registro</string>
+    <string name="label_name_field_signup">Nombre</string>
+    <string name="label_email_field_signup">Correo</string>
+    <string name="label_password_field_signup">Contraseña</string>
+    <string name="txt_btn_signup">Registrarse</string>
+</resources>

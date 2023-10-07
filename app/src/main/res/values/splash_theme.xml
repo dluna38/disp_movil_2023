@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Splash Screen Theme. -->
+    <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/design_default_color_primary_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_login</item>
+        <item name="postSplashScreenTheme">@style/Theme.Logintaller</item>
+
+        <!-- Status bar and Nav bar configs -->
+        <item name="android:statusBarColor" >@color/design_default_color_primary_dark</item>
+        <item name="android:navigationBarColor">@color/design_default_color_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

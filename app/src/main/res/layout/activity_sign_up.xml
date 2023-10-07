@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/labelConfigName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -38,7 +38,7 @@
         android:text="@string/label_email_field_signup"
         android:textSize="@dimen/label_dimen_userSign"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/labelConfigName" />
 
     <TextView
         android:id="@+id/textView8"
@@ -60,7 +60,7 @@
         android:hint="tucorreo@dominio.com"
         android:inputType="textEmailAddress"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
-        app:layout_constraintStart_toStartOf="@+id/editTextNameSignUp" />
+        app:layout_constraintStart_toStartOf="@+id/txtUpdateName" />
 
     <EditText
         android:id="@+id/editTextPassSignUp"
@@ -73,26 +73,42 @@
         app:layout_constraintStart_toStartOf="@+id/editTextEmailSignUp" />
 
     <EditText
-        android:id="@+id/editTextNameSignUp"
+        android:id="@+id/txtUpdateName"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:ems="10"
         android:hint="Tu nombre"
         android:autofillHints="name"
         android:inputType="text|textPersonName"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelConfigName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView6" />
+        app:layout_constraintStart_toEndOf="@+id/labelConfigName" />
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
+        android:backgroundTint="#81C784"
         android:onClick="processSignUp"
         android:text="@string/txt_btn_signup"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnCancelarSignUp" />
+
+    <Button
+        android:id="@+id/btnCancelarSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#EF5350"
+        android:onClick="cancelSignUp"
+        android:text="Cancelar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

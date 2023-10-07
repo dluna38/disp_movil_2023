@@ -37,7 +37,7 @@ obj/
 .externalNativeBuild
 
 
-
+app/src/main/java/com/example/logintaller/utils/MyEnv.java
 /local.properties
 /.idea/caches
 /.idea/libraries

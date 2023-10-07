@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/logInText"
         android:layout_width="wrap_content"
@@ -70,6 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
+        android:backgroundTint="#81C784"
         android:onClick="processLogIn"
         android:text="@string/btn_login_text"
         android:textSize="16sp"
@@ -98,4 +100,5 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/editTextPasswordLogIn"
         app:layout_constraintTop_toBottomOf="@+id/editTextPasswordLogIn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
